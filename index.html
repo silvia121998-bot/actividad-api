@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Universo Interactivo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+<h1>Encuentra tu personaje favorito</h1>
+<p>
+Descubre personajes increíbles del universo Rick and Morty.
+Busca por nombre, explora imágenes y encuentra tus favoritos.
+</p>
+</section>
+
+<section class="panel">
+
+<input type="text" id="nombre" placeholder="Buscar personaje">
+
+<button onclick="buscarPersonaje()">Buscar</button>
+<button onclick="aleatorio()">Aleatorio</button>
+<button onclick="limpiar()">Limpiar</button>
+
+</section>
+
+<section class="titulo">
+<h2>Personajes encontrados</h2>
+</section>
+
+<section id="resultado" class="grid"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
